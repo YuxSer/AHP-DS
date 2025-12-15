@@ -14,7 +14,6 @@ class XMLParser:
     def parse_xml_file(self, file_path):
         """
         Парсинг XML файла с несколькими критериями
-        Возвращает True если успешно, False если ошибка
         """
         if not os.path.exists(file_path):
             print(f" Файл {file_path} не найден!")

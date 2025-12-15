@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ds_ahp_analysis>
+  <metadata>
+    <criteria_count>2</criteria_count>
+    <alternatives>A1,A2,A3</alternatives>
+  </metadata>
+  <criteria>
+    <criterion id="1" name="Цена размещения">
+      <matrix>
+        <row group="A1">
+          <column group="A1">1</column>
+          <column group="A2&amp;A3">0</column>
+          <column group="ALL">4</column>
+        </row>
+        <row group="A2&amp;A3">
+          <column group="A1">0</column>
+          <column group="A2&amp;A3">1</column>
+          <column group="ALL">6</column>
+        </row>
+        <row group="ALL">
+          <column group="A1">0.25</column>
+          <column group="A2&amp;A3">0.166667</column>
+          <column group="ALL">1</column>
+        </row>
+      </matrix>
+    </criterion>
+    <criterion id="2" name="Популярность канала">
+      <matrix>
+        <row group="A2">
+          <column group="A2">1</column>
+          <column group="ALL">0.5</column>
+        </row>
+        <row group="ALL">
+          <column group="A2">2</column>
+          <column group="ALL">1</column>
+        </row>
+      </matrix>
+    </criterion>
+  </criteria>
+</ds_ahp_analysis>
