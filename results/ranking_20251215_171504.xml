@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<ds_ahp_ranking>
+  <metadata>
+    <timestamp>2025-12-15T17:15:04.788201</timestamp>
+    <analysis_type>DS_AHP</analysis_type>
+    <pessimism_coefficient>0.6000</pessimism_coefficient>
+    <optimal_alternative>A2</optimal_alternative>
+    <alternatives_count>3</alternatives_count>
+  </metadata>
+  <ranking>
+    <alternative rank="1" name="A2" optimal="true">
+      <score>0.5665</score>
+      <belief>0.4291</belief>
+      <plausibility>0.7724</plausibility>
+      <interval>[0.4291, 0.7724]</interval>
+      <interval_width>0.3433</interval_width>
+    </alternative>
+    <alternative rank="2" name="A1" optimal="false">
+      <score>0.2607</score>
+      <belief>0.2276</belief>
+      <plausibility>0.3104</plausibility>
+      <interval>[0.2276, 0.3104]</interval>
+      <interval_width>0.0828</interval_width>
+    </alternative>
+    <alternative rank="3" name="A3" optimal="false">
+      <score>0.1373</score>
+      <belief>0.0000</belief>
+      <plausibility>0.3433</plausibility>
+      <interval>[0.0000, 0.3433]</interval>
+      <interval_width>0.3433</interval_width>
+    </alternative>
+  </ranking>
+</ds_ahp_ranking>

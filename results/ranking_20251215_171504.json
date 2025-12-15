@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-15T17:15:04.807217",
+    "analysis_type": "DS_AHP",
+    "pessimism_coefficient": "0.6000",
+    "optimal_alternative": "A2",
+    "alternatives_count": 3
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "alternative": "A2",
+      "score": "0.5665",
+      "optimal": true,
+      "belief": "0.4291",
+      "plausibility": "0.7724",
+      "interval": "[0.4291, 0.7724]",
+      "interval_width": "0.3433"
+    },
+    {
+      "rank": 2,
+      "alternative": "A1",
+      "score": "0.2607",
+      "optimal": false,
+      "belief": "0.2276",
+      "plausibility": "0.3104",
+      "interval": "[0.2276, 0.3104]",
+      "interval_width": "0.0828"
+    },
+    {
+      "rank": 3,
+      "alternative": "A3",
+      "score": "0.1373",
+      "optimal": false,
+      "belief": "0.0000",
+      "plausibility": "0.3433",
+      "interval": "[0.0000, 0.3433]",
+      "interval_width": "0.3433"
+    }
+  ]
+}
