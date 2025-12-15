@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ds_ahp_analysis>
+  <metadata>
+    <criteria_count>3</criteria_count>
+    <alternatives>Iphone,Samsung,Xiaomi</alternatives>
+  </metadata>
+  <criteria>
+    <criterion id="1" name="Камера">
+      <matrix>
+        <row group="Iphone">
+          <column group="Iphone">1</column>
+          <column group="Samsung&amp;Xiaomi">0</column>
+          <column group="ALL">4</column>
+        </row>
+        <row group="Samsung&amp;Xiaomi">
+          <column group="Iphone">0</column>
+          <column group="Samsung&amp;Xiaomi">1</column>
+          <column group="ALL">2</column>
+        </row>
+        <row group="ALL">
+          <column group="Iphone">0.25</column>
+          <column group="Samsung&amp;Xiaomi">0.5</column>
+          <column group="ALL">1</column>
+        </row>
+      </matrix>
+    </criterion>
+    <criterion id="2" name="Память">
+      <matrix>
+        <row group="Iphone">
+          <column group="Iphone">1</column>	
+	  <column group="Samsung">0</column>
+          <column group="ALL">5</column>
+        </row>
+
+	 <row group="Samsung">
+          <column group="Iphone">0</column>	
+	  <column group="Samsung">1</column>
+          <column group="ALL">3</column>
+        </row>
+
+        <row group="ALL">
+	  <column group="Iphone">0.2</column>
+          <column group="Samsung">0.3333</column>
+          <column group="ALL">1</column>
+        </row>
+      </matrix>
+    </criterion>
+
+   <criterion id="3" name="Процессор">
+      <matrix>
+        <row group="Iphone&amp;Samsung">
+          <column group="Iphone&amp;Samsung">1</column>	
+	  <column group="Xiaomi">0</column>
+          <column group="ALL">4</column>
+        </row>
+
+	 <row group="Xiaomi">
+          <column group="Iphone&amp;Samsung">0</column>	
+	  <column group="Xiaomi">1</column>
+          <column group="ALL">0.5</column>
+        </row>
+
+        <row group="ALL">
+	  <column group="Iphone&amp;Samsung">0.25</column>
+          <column group="Xiaomi">2</column>
+          <column group="ALL">1</column>
+        </row>
+      </matrix>
+    </criterion>
+  </criteria>
+</ds_ahp_analysis>
